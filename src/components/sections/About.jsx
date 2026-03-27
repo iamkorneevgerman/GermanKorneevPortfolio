@@ -10,19 +10,21 @@ export default function About() {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <h2 className="text-6xl font-bold tracking-tighter leading-none">
-            I simplify <br />
-            <span className="text-gray-500">complexity.</span>
+          <h2 className="text-5xl font-bold tracking-tighter leading-none">
+            Понимаю код <br />
+            <span className="text-gray-500">изнутри</span>
           </h2>
           <p className="text-xl text-gray-400 leading-relaxed font-light">
-            Как Senior-инженер, я не просто пишу код. Я проектирую устойчивые
-            архитектуры и делюсь знаниями, превращая запутанные концепции в
-            интуитивно понятные цифровые продукты.
+            Выпускник ЮФУ по направлению «Прикладная информатика» и
+            преподаватель в Академии TOP. За последний год обучил 150+
+            студентов, проведя сотни Code Review и помогая разобраться в
+            тонкостях разработки. Ежедневная работа с чужим кодом отточила навык
+            находить узкие места в архитектуре и оптимизировать решения.
           </p>
           <div className="flex gap-12 pt-4">
             <div>
               <div className="text-4xl font-bold text-accent tracking-tighter">
-                8+
+                2+
               </div>
               <div className="text-[10px] uppercase tracking-widest text-gray-500 mt-1 font-mono">
                 Years Exp.
@@ -38,7 +40,7 @@ export default function About() {
             </div>
             <div>
               <div className="text-4xl font-bold text-white tracking-tighter">
-                1k+
+                200+
               </div>
               <div className="text-[10px] uppercase tracking-widest text-gray-500 mt-1 font-mono">
                 Students

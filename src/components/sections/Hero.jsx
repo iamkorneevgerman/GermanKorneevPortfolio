@@ -24,32 +24,26 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           className="font-mono text-accent mb-6 tracking-[0.5em] block uppercase text-xs"
         >
-          Senior Frontend Developer • Mentor
+          Frontend-разработчик • Преподаватель
         </motion.span>
-        <motion.h1
-          initial={{ y: 80, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="text-7xl md:text-[10rem] font-bold tracking-tighter leading-none mb-12"
-        >
-          BUILDING <br /> <span className="text-gradient">SYSTEMS</span>
+        <motion.h1 className="text-6xl md:text-[8rem] font-bold tracking-tighter leading-none mb-12">
+          КОД И <br /> <span className="text-gradient">ЗНАНИЯ</span>
         </motion.h1>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
-          className="flex justify-center gap-4"
-        >
+        <p className="text-gray-400 max-w-lg mx-auto mb-12 text-lg">
+          Создаю современные веб-интерфейсы и помогаю другим освоить
+          программирование с нуля
+        </p>
+
+        <div className="flex justify-center gap-4">
           <a
             href="#projects"
-            className="px-10 py-4 glass rounded-full hover:bg-white hover:text-black transition-all duration-500 font-bold tracking-tighter uppercase text-sm"
+            className="px-10 py-4 glass rounded-full hover:bg-white transition-all font-bold text-sm hover:text-gradient"
           >
-            View Work
+            МОИ ПРОЕКТЫ
           </a>
-        </motion.div>
+        </div>
       </motion.div>
-
       {/* Structural Grid Decor */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"

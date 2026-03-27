@@ -11,22 +11,26 @@ export default function Contact() {
       >
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-purple/5 opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
 
-        <h2 className="text-5xl md:text-8xl font-bold tracking-tighter mb-12 relative z-10">
-          Let's create <br />
-          <span className="text-gradient">the future.</span>
+        <h2 className="text-5xl md:text-7xl font-bold tracking-tighter mb-12">
+          Открыт к новым <br />
+          <span className="text-gradient">вызовам</span>
         </h2>
-
-        <p className="text-gray-400 font-mono text-sm mb-16 uppercase tracking-[0.2em] relative z-10">
-          Available for senior roles & strategic consultations.
+        <p className="text-gray-400 font-mono text-sm mb-16 uppercase tracking-[0.2em]">
+          Ищу позицию Frontend-разработчика в сильную команду
         </p>
-
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 relative z-10">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
           <a
-            href="mailto:hello@architect.dev"
-            className="group flex items-center gap-3 text-4xl font-bold hover:text-accent transition-colors"
+            href="mailto:malbolge1@yandex.ru"
+            className="px-12 py-5 bg-white text-gray-900 rounded-full font-bold hover:bg-accent transition-colors"
           >
-            hello@architect.dev{" "}
-            <ArrowUpRight className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform" />
+            Написать на почту
+          </a>
+          <a
+            href="https://t.me/imgerman"
+            target="_blank"
+            className="px-12 py-5 glass rounded-full font-bold hover:bg-white/10 transition-colors"
+          >
+            Telegram
           </a>
         </div>
       </motion.div>
