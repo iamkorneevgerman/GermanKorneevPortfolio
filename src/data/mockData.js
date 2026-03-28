@@ -1,39 +1,60 @@
 export const projects = [
   {
     id: 1,
-    title: "GermanPortfolio V1",
+    title: "Hydraulic Network Calculation System",
     description:
-      "Первая итерация личного бренда. Фокус на чистой верстке, адаптивности и анимациях на нативном стеке.",
-    stack: ["HTML5", "CSS3", "JavaScript"],
-    link: "https://github.com/iamkorneevgerman/GermanPortfolio",
+      "Инженерная система для гидравлического расчета водопроводных сетей. Реализована математическая модель расчета напоров, потерь давления и распределения потоков. Включает backend-ядро вычислений и frontend с интерактивной визуализацией сети.",
+    stack: [
+      "React",
+      "JavaScript (ES6+)",
+      "Node.js",
+      "REST API",
+      "Algorithms",
+      "Mathematical Modeling",
+    ],
+    link: "https://github.com/iamkorneevgerman",
     image:
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000",
+      "public/HydraulicNetworkCalculationSystem.png",
   },
   {
     id: 2,
-    title: "React Web Apps",
+    title: "Cosmetics Store",
     description:
-      "Серия интерактивных приложений (Todo, Weather). Отработка стейт-менеджмента, хуков и работы с REST API.",
-    stack: ["React", "API", "State Management"],
-    link: "https://github.com/iamkorneevgerman/react-todo",
+      "Веб-приложение интернет-магазина косметики с каталогом товаров, карточками продуктов и пользовательским интерфейсом для выбора и просмотра продукции. Реализована структура e-commerce приложения: отображение товаров, навигация по категориям и базовая логика взаимодействия с пользователем.",
+    stack: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "DOM Manipulation",
+      "Responsive Design",
+      "UI/UX",
+    ],
+    link: "https://github.com/iamkorneevgerman/Cosmetics-Store",
     image:
-      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=1000",
+      "public/CosmeticsStore.png",
   },
   {
     id: 3,
-    title: "Layout Masterpieces",
+    title: "Hedgehog Run",
     description:
-      "Коллекция сложных макетов с использованием Grid, Flexbox и современных CSS-фич. Пиксельная точность и кроссбраузерность.",
-    stack: ["Adaptive", "SCSS", "BEM"],
-    link: "https://github.com/iamkorneevgerman/layout-design",
+      "Браузерная аркадная игра, в которой реализована игровая логика управления персонажем, система столкновений и взаимодействие с объектами. Игрок управляет ежом, собирает ресурсы и избегает препятствий, что демонстрирует работу с анимациями, обработкой событий и базовой игровой логикой.",
+    stack: [
+      "JavaScript (ES6+)",
+      "HTML5 Canvas",
+      "CSS3",
+      "Game Loop",
+      "Event Handling",
+      "Collision Detection",
+    ],
+    link: "https://github.com/iamkorneevgerman/hedgehog-run",
     image:
-      "https://images.unsplash.com/photo-1541462608141-ad516aeb280a?q=80&w=1000",
+      "public/HedgehogRun.png",
   },
 ];
 
 export const skills = [
   {
-    category: "Core Stack",
+    category: "Основной стек",
     items: ["JavaScript (ES6+)", "React", "Angular", "HTML5/CSS3"],
     icon: "⚛️",
   },
@@ -59,7 +80,7 @@ export const experience = [
     achievements: "Обучил 150+ студентов, создал базу практических заданий",
   },
   {
-    company: "Международный Колледж Цифровых Технологий Академия Тор (Ростов-на-Дону)",
+    company: "МКЦТ (Ростов-на-Дону)",
     position: "Преподаватель / Технический куратор",
     period: "Апрель 2025 — Наст. время",
     description:

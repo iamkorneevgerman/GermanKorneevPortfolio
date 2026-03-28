@@ -21,14 +21,15 @@ export default function Contact() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
           <a
             href="mailto:malbolge1@yandex.ru"
-            className="px-12 py-5 bg-white text-gray-900 rounded-full font-bold hover:bg-accent transition-colors"
+            className="px-12 py-5 bg-white text-gray-900 rounded-full font-bold hover:bg-accent hover:text-white transition-colors cursor-pointer"
           >
             Написать на почту
           </a>
           <a
             href="https://t.me/imgerman"
             target="_blank"
-            className="px-12 py-5 glass rounded-full font-bold hover:bg-white/10 transition-colors"
+            rel="noopener noreferrer"
+            className="px-12 py-5 glass rounded-full font-bold hover:bg-white/10 transition-colors cursor-pointer"
           >
             Telegram
           </a>

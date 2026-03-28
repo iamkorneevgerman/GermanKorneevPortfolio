@@ -58,9 +58,9 @@ export default function About() {
           <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl opacity-20 group-hover:opacity-40 transition-opacity duration-700" />
           <div className="relative glass p-4 rounded-[3rem] transform rotate-3 hover:rotate-0 transition-transform duration-700">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000"
-              alt="Architect Profile"
-              className="rounded-[2.5rem] grayscale group-hover:grayscale-0 transition-all duration-700"
+              src="public/foto-portfolio.jpg"
+              alt="Frontend Developer Profile"
+              className="rounded-[2.5rem] group-hover:grayscale-0 transition-all duration-700"
             />
           </div>
         </motion.div>

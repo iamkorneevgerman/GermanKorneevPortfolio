@@ -18,6 +18,10 @@ body {
   @apply antialiased text-white overflow-x-hidden;
 }
 
+a {
+  cursor: none;
+}
+
 .glass {
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(12px);
@@ -28,7 +32,6 @@ body {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-purple;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }

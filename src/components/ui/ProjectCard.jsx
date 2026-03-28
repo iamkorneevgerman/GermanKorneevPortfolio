@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-// Удаляем импорт lucide-react
-// import { Github, ExternalLink } from "lucide-react";
 
 export default function ProjectCard({ project, index }) {
   const isEven = index % 2 === 0;
@@ -18,16 +16,16 @@ export default function ProjectCard({ project, index }) {
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-[300px] md:h-[450px] object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+          className="w-full h-[300px] md:h-[450px] object-cover transition-all duration-700 group-hover:scale-105"
         />
       </div>
 
       <div className="w-full md:w-2/5">
-        <div className="flex gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-4 max-w-[420px]">
           {project.stack.map((s) => (
             <span
               key={s}
-              className="text-[10px] font-mono border border-accent/30 text-accent px-2 py-1 rounded"
+              className="text-[10px] font-mono border border-accent/30 text-accent px-2 py-1 rounded whitespace-nowrap hover:bg-accent/10 transition-colors"
             >
               {s}
             </span>
@@ -42,7 +40,6 @@ export default function ProjectCard({ project, index }) {
             href={project.link}
             className="flex items-center gap-2 hover:text-accent transition-colors group"
           >
-            {/* Временно убрали иконку Github */}
             <span className="text-sm font-bold uppercase tracking-tighter">
               Source
             </span>
@@ -51,7 +48,6 @@ export default function ProjectCard({ project, index }) {
             href={project.link}
             className="flex items-center gap-2 hover:text-accent transition-colors group"
           >
-            {/* Временно убрали иконку ExternalLink */}
             <span className="text-sm font-bold uppercase tracking-tighter">
               Live Demo
             </span>

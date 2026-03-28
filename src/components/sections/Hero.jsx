@@ -38,13 +38,14 @@ export default function Hero() {
         <div className="flex justify-center gap-4">
           <a
             href="#projects"
-            className="px-10 py-4 glass rounded-full hover:bg-white transition-all font-bold text-sm hover:text-gradient"
+            className="group px-10 py-4 glass rounded-full hover:bg-white transition-all duration-500 font-bold text-sm"
           >
-            МОИ ПРОЕКТЫ
+            <span className="text-white group-hover:text-gradient transition-all duration-500">
+              МОИ ПРОЕКТЫ
+            </span>
           </a>
         </div>
       </motion.div>
-      {/* Structural Grid Decor */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{
